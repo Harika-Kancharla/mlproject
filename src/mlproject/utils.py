@@ -1,6 +1,6 @@
-#mysql nunchi deniki connection kavaliga adi ikkada chestam
+#mysql nunchi deniki connection kavaliga adi ikkada chestam 
 
-#utils anedi oka generic functionality kosam 
+#utils anedi oka generic functionality kosam like data base nunchi data ni read cheyyadam kosam ala
 import os
 import sys
 from mlproject.exception import CustomException
@@ -9,7 +9,7 @@ import pandas as pd
 from dotenv import load_dotenv
 import pymysql
 
-load_dotenv()
+load_dotenv() # Load values from .env file
 
 host=os.getenv("host")
 user=os.getenv("user")
