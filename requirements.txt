@@ -4,5 +4,8 @@ python-dotenv #envirnment variables set chestam ga avi ready cheyyadaniki ee lib
 mysql-connector-python
 pymysql
 scikit-learn
+seaborn
+catboost
+xgboost
 #-e .
 
