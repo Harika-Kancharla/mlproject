@@ -1,6 +1,6 @@
 numpy 
 pandas
-python-dotenv #envirnment variables set chestam ga avi ready cheyyadaniki ee library help chestadi
+python-dotenv #envirnment variables set chestam ga avi read cheyyadaniki ee library help chestadi
 mysql-connector-python
 pymysql
 scikit-learn

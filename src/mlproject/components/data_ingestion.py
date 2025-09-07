@@ -30,7 +30,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         try:
             ##reading the data from mysql
-            df=pd.read_csv(os.path.join('notebook/data','raw.csv'))
+            df=read_sql_data()
             logging.info("Reading completed from mysql database")
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
             df.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)
@@ -47,3 +47,7 @@ class DataIngestion:
 
         except Exception as e:
             raise CustomException(e,sys)
+        
+# if __name__=="__main__":
+#     obj=DataIngestion()
+#     train_data,test_data=obj.initiate_data_ingestion()

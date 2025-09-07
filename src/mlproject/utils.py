@@ -1,6 +1,8 @@
 #mysql nunchi deniki connection kavaliga adi ikkada chestam 
 
 #utils anedi oka generic functionality kosam like data base nunchi data ni read cheyyadam kosam ala
+#creating mongodb client
+#save model into cloud, I will write code here
 import os
 import sys
 from mlproject.exception import CustomException
